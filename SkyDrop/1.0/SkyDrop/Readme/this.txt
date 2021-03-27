@@ -1,0 +1,9 @@
+Am thanh
+
+bool PlaySound(LPCWSTR FileName, HMODULE TypeOfSound, DWORD Flag);
+FileName = TEXT("") hoac L""
+TypeOfSound de la NULL
+Flag gom SND_FILENAME, SND_LOOP la chay xong sound moi chay tiep chuong trinh
+	  SND_ASYNC, chay song song chuong trinh
+
+bool PlaySoundA(char *FileName, HMODULE TypeOfSound, DWORD Flag);
