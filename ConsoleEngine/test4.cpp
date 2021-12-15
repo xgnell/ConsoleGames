@@ -9,7 +9,7 @@ int main() {
 
     SetConsoleBackgroundColor(2);
 
-    DrawString(10,5,"Fucking you", 14);
+    DrawString(10,5,"Sample String", 14);
 
     DrawRect(7,7, 25,20,'+',12);
 
@@ -22,7 +22,7 @@ int main() {
 
     cin.get();
 
-    DrawString(25,10, "Tao o day", 10);
+    DrawString(25,10, "I am here", 10);
     
     UpdateConsole();
 
